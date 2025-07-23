@@ -1,0 +1,101 @@
+  .first-cover{
+    background-color: rgb(58, 56, 56);
+    margin-left: 0px; 
+
+  }
+
+  .button-one {
+    padding: 4px;
+  }
+
+    .button-five {
+    padding: 8px;
+    border-radius: 16px;
+  }
+
+  .first-header {
+    margin-left: 500px; 
+  }
+
+  .second-cover {
+    margin-left: 0px;
+    background-color: white;
+  }
+
+  .cv-button {
+    background-color: rgb(234, 234, 238); 
+    color: white;
+    padding: 2px;
+    border-radius: 8px;
+    margin-left: 120px   
+
+  }
+
+    body {
+      font-family: Arial, sans-serif;
+  }
+  nav {
+      display: flex;
+      background-color:  #333;
+      padding: 10px;
+  }
+  nav a {
+      color: white;
+      padding: 14px;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 8px;
+  }
+
+    nav a:first-child {
+      margin-right: 800px;
+      margin-left: 200px;
+  }
+ 
+  nav a:hover {
+      background-color:white;
+      color:black;
+  }
+
+  .bottonlinks {
+      display: flex;
+      justify-content: space-between; /* Spread links */
+      background-color: #333;
+      padding: 10px;
+  }
+  .bottonlinks a {
+      color: white;
+      padding: 2px; /* Padding */
+      text-decoration: none;
+      text-align: center;
+      border-radius: 2px;
+  }
+  .bottonlinks a:first-child {
+      margin-right: 50px; 
+      margin-left: 200px;
+  }
+  .bottonlinks a:hover {
+      color: black;
+  }
+
+  .header-two {
+    margin-left: 200px;
+    color: white;
+  }
+
+  .header-three {
+    margin-left: 200px;
+    color: white;
+  }
+
+  .connect-button {
+    margin-left: 200px;
+    padding: 8px;
+    border-radius: 200px;
+  }  
+
+  .first-heade {
+    margin-left: 0px;
+  }  
+
+
