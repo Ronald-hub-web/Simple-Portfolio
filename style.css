@@ -1,5 +1,5 @@
   .first-cover{
-    background-color: rgb(58, 56, 56);
+    background-image: url(Images/334b266084822df8d23b59393cda65405d3c4edc.jpg);
     margin-left: 0px; 
 
   }
@@ -13,31 +13,28 @@
     border-radius: 16px;
   }
 
-  .first-header {
-    margin-left: 500px; 
+  .main-header {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
 
-  .second-cover {
-    margin-left: 0px;
-    background-color: white;
+  .cover-picture {
+    display: inline-block;
+    width: 200px; 
   }
 
-  .cv-button {
-    background-color: rgb(234, 234, 238); 
-    color: white;
-    padding: 2px;
-    border-radius: 8px;
-    margin-left: 120px   
-
-  }
-
-    body {
+  body {
       font-family: Arial, sans-serif;
   }
   nav {
       display: flex;
-      background-color:  #333;
+      background-color:  #25272e;
       padding: 10px;
+      margin-bottom: 140px;
   }
   nav a {
       color: white;
@@ -54,13 +51,13 @@
  
   nav a:hover {
       background-color:white;
+      border-radius: 18px;
       color:black;
   }
 
   .bottonlinks {
       display: flex;
       justify-content: space-between; /* Spread links */
-      background-color: #333;
       padding: 10px;
   }
   .bottonlinks a {
@@ -69,13 +66,26 @@
       text-decoration: none;
       text-align: center;
       border-radius: 2px;
+      margin-bottom: 60px;
+      margin-top: 20px;
   }
   .bottonlinks a:first-child {
       margin-right: 50px; 
       margin-left: 200px;
+      background-color: rgb(177, 174, 174);
+      padding: 8px;
+      border-radius: 12px;
+  }
+
+  .bottonlinks a:last-child{
+      margin-right: 70px; 
+      margin-left: 200px;
+      background-color: rgb(177, 174, 174);
+      padding: 8px;
+      border-radius: 12px;
   }
   .bottonlinks a:hover {
-      color: black;
+      color:none;
   }
 
   .header-two {
@@ -97,5 +107,107 @@
   .first-heade {
     margin-left: 0px;
   }  
+
+
+
+
+
+  /* =============================== Page TWO ===============*/
+
+  .second-cover {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+  }
+
+  .page2-pic {
+    display: inline-block;
+    width: 350px; 
+    margin-left: 200px;
+    height: 700px;
+  }
+
+    .cv-button {
+    background-color: rgb(4, 4, 50); 
+    color: white;
+    padding: 8px;
+    border-radius: 16px;
+    margin-left: 0px 
+  }
+
+  .page2-header {
+    color: blue;
+    margin-bottom: 0px;
+    margin-top: 200px;
+  }
+
+  .page2-header2 {
+    margin-bottom: 20px;
+
+  }
+
+  /* ================Page Three ==================*/
+
+  .page3-cont1 {
+
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+  }
+
+  .prot-name {
+    width: 200px;
+    margin-right: 200px;
+  }
+
+  .page3-cont12 {
+    padding: 8px;
+    background-color: grey;
+ 
+    
+  }
+
+  .page3-cont2 {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+  .pict1-info {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+
+  .pict1-info1 {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+
+  }
+
+  .pict1-info {
+    background-image: url(Images/Air\ Pollution.png);
+    width: 400px;
+
+  }
+
+  .page3-cont21 {
+    margin-top: 200px;
+    background-color: rgb(164, 162, 162);
+    margin-bottom: 0px;
+    width: 400px;
+
+  }
+
+
+
+
 
 
