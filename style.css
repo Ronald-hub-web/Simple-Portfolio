@@ -110,9 +110,6 @@
   }  
 
 
-
-
-
   /* =============================== Page TWO ===============*/
 
   .Page2-container {
@@ -127,6 +124,7 @@
 
   }
 
+  
   .page2-pic {
     display: inline-block;
     width: 500px; 
@@ -293,7 +291,7 @@
   }
 
   .page4-cont2 {
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: 10px;
     margin-right: 10px;
     display: grid;
