@@ -24,7 +24,8 @@
 
   .cover-picture {
     display: inline-block;
-    width: 200px; 
+    width: 300px; 
+    height: 500px;
   }
 
   body {
@@ -128,9 +129,9 @@
 
   .page2-pic {
     display: inline-block;
-    width: 400px; 
+    width: 500px; 
     margin-left: 200px;
-    height: 700px;
+    height: 800px;
   }
 
   .cv-button {
@@ -212,14 +213,15 @@
   .pict1-info {
     background-image: url(Images/Air\ Pollution.png);
     width: 400px;
+    height: 700px;
 
   }
 
   .page3-cont21 {
-    margin-top: 330px;
+    margin-top: 520px;
     background-color: rgb(164, 162, 162);
     margin-bottom: 0px;
-    width: 400px;
+    width: 380px;
     height: 150px;
     margin-left: 10px;
 
@@ -257,6 +259,71 @@
   margin-left: 50px;
   margin-right: 0px;
  }
+
+
+ 
+  /* ================Page Four ==================*/
+
+  .Page4-container {
+    height: 100vh; 
+  }
+
+  .prot2-name {
+    margin-right: 200px;
+    height: 20px;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+    .cover-picture4 {
+    display: inline-block;
+    width: 400px; 
+    margin-left: 20px;
+    height: 400px;
+  }
+
+  .page4-cont12 {
+    padding: 8px;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 30px; 
+    
+  }
+
+  .page4-cont2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+  .page4-cont21 {
+    margin-top: 150px;
+    background-color: rgb(164, 162, 162);
+    margin-bottom: 0px;
+    width: 380px;
+    height: 150px;
+    margin-left: 10px;
+
+  }
+
+  .page4-cont13 {
+    margin-left: 220px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+  }
+
+
+  .page4-cont14 {
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+  }
 
 
  /* =============================== Page five ===============*/
